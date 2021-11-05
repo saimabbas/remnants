@@ -108,6 +108,7 @@ function App() {
           </div>
           <div className="three-card-grid">
             <div className="three-card-grid-cell">
+              <h2 className="cursive">HISTORY</h2>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -116,6 +117,7 @@ function App() {
               </p>
             </div>
             <div className="three-card-grid-cell">
+              <h2 className="cursive">SURVIVAL</h2>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -124,6 +126,7 @@ function App() {
               </p>
             </div>
             <div className="three-card-grid-cell">
+              <h2 className="cursive">FUTURE</h2>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat

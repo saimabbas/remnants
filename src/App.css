@@ -81,11 +81,11 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../src/assets/hero2.png");
+  background-image: url("../src/assets/BG2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: brightness(0.65);
+  filter: brightness(0.85);
   z-index: -1;
 }
 .header {
@@ -240,6 +240,14 @@ a {
   padding: 2.5rem;
   background-color: var(--light-purple);
   border-radius: 1rem;
+}
+.three-card-grid-cell H2 {
+  font-size: 2.25rem;
+  color: var(--white);
+  font-weight: 400;
+  margin: 0 0 2.5rem 0;
+  width: 100%;
+  text-align: center;
 }
 .three-card-grid-cell p {
   font-size: 1.75rem;
