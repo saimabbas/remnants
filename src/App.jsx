@@ -108,30 +108,29 @@ function App() {
           </div>
           <div className="three-card-grid">
             <div className="three-card-grid-cell">
-              <h2 className="cursive">HISTORY</h2>
+              <h2 className="cursive">Outbreak </h2>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
+                It's been 9 months since the outbreak. A virus causing mutation
+                and disease has swept through the Metaverse. 3500 survivors now
+                reside on the Ethereum blockchain, these, are the Remaining.
               </p>
             </div>
             <div className="three-card-grid-cell">
-              <h2 className="cursive">SURVIVAL</h2>
+              <h2 className="cursive">Survival </h2>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
+                Looting, fighting and un-conventional means of survival have
+                ensued. The Remaining have armed themselves with a selection of
+                weapons to increase their chances of survival. Hunger is the
+                least of their problem in the post-apocalypse.
               </p>
             </div>
             <div className="three-card-grid-cell">
-              <h2 className="cursive">FUTURE</h2>
+              <h2 className="cursive">Future </h2>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
+                The future is not certain for The Remnants. Some choose to get
+                by using brute force, and some go for a more scientific approach
+                trying to find a cure for the virus. Where will your loyalties
+                lie?
               </p>
             </div>
           </div>

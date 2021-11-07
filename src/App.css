@@ -11,7 +11,7 @@
 }
 :root {
   font-size: 10px;
-  --white: #ffffff;
+  --white: #f8f8f8;
   --black: #000000;
   --light-purple: #8075ff;
   --dark-purple: #251f6a;
@@ -278,15 +278,20 @@ a {
   width: 100%;
   border-radius: 1rem;
   overflow: hidden;
+  transition: 0.75s;
 }
 .remains-grid-cell main {
   width: 100%;
   height: 35rem;
-  background-color: var(--white);
+  background-color: #17c599;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 5rem 0;
+}
+.remains-grid-cell:hover {
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
+  transform: translate(0, -0.5rem);
 }
 .remains-grid-cell main.remains-grid-cell-special {
   padding: 0;
@@ -465,6 +470,7 @@ a {
   color: var(--white);
   margin: 0 0 5rem 0;
   font-size: 3.5rem;
+  text-align: center;
 }
 .cta-content main {
   width: 100%;
@@ -496,7 +502,7 @@ a {
     padding: 0 1.75rem;
   }
   .header-left {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
   .header-right > * {
@@ -505,15 +511,14 @@ a {
   .header-right a {
     font-size: 2.25rem;
   }
-  .main-btn {
-    padding: 0.75rem 2rem;
-  }
   .hero-content h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   .hero-content {
     width: 100%;
+    align-items: center;
+    text-align: center;
   }
   .hero-content button {
     padding: 1.25rem 5rem;
@@ -542,8 +547,9 @@ a {
     width: 85%;
   }
   .mint h1,
+  .faq h1,
   .remains-content h1 {
-    font-size: 2.75rem;
+    font-size: 1.75rem;
   }
   .faq,
   .remains,
@@ -572,5 +578,21 @@ a {
   }
   .footer-content svg {
     font-size: 2rem;
+  }
+  .cta-content {
+    height: 50vh;
+  }
+  .cta {
+    min-height: 50vh;
+  }
+  .cta-content h1 {
+    font-size: 1.75rem;
+    margin: 0 0 3.5rem 0;
+  }
+  .cta-content main svg {
+    font-size: 3.5rem;
+  }
+  .three-card-grid-cell {
+    text-align: center;
   }
 }
