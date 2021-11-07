@@ -301,7 +301,7 @@ a {
   object-fit: contain;
 }
 .remains-grid-cell main.remains-grid-cell-special img {
-  height: 100%;
+  height: 102%;
   object-fit: cover;
 }
 .remains-grid-cell h6 {
@@ -547,9 +547,12 @@ a {
     width: 85%;
   }
   .mint h1,
-  .faq h1,
-  .remains-content h1 {
+  .mainheading,
+  .faq h1 {
     font-size: 1.75rem;
+  }
+  .rmg-cell h1 {
+    font-size: 2.75rem;
   }
   .faq,
   .remains,
